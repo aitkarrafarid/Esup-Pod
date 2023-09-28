@@ -1031,6 +1031,19 @@
                             "pod_version_end": "",
                             "pod_version_init": "3.1"
                         },
+                        "EVENT_CHECK_MAX_ATTEMPT": {
+                            "default_value": 10,
+                            "description": {
+                                "en": [
+                                    ""
+                                ],
+                                "fr": [
+                                    "Nombre de tentatives maximum pour vérifier la présence / taille d'un fichier sur le filesystem"
+                                ]
+                            },
+                            "pod_version_end": "",
+                            "pod_version_init": "3.4"
+                        },
                         "HEARTBEAT_DELAY": {
                             "default_value": 45,
                             "description": {
@@ -2438,7 +2451,7 @@
                             "default_value": "__all__",
                             "description": {
                                 "en": [
-                                    ""
+                                    "List of displayed video editing form fields."
                                 ],
                                 "fr": [
                                     "Liste des champs du formulaire d’édition de vidéos affichées."
@@ -2721,7 +2734,7 @@
                             "pod_version_end": "",
                             "pod_version_init": "3.1.0"
                         },
-                        
+
                         "VIDEO_REQUIRED_FIELDS": {
                             "default_value": "[]",
                             "description": {
