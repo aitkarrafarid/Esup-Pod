@@ -108,6 +108,7 @@ docker-logs:
 echo-env:
 	@echo ELASTICSEARCH_TAG=$(ELASTICSEARCH_TAG)
 	@echo PYTHON_TAG=$(PYTHON_TAG)
+	@echo NODE_TAG=$(NODE_TAG)
 	@echo DOCKER_ENV=$(DOCKER_ENV)
 
 # Démarre le serveur de test en recompilant les conteneurs de la stack
